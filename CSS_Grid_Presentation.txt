@@ -1,0 +1,31 @@
+CSS Grid Presentation
+
+I. Browser Compatibility
+	A. Chrome, FF, Safari, IE11: OK
+	B. IE 10-: Not OK
+	C. @supports (grid-area: auto): CSS rule for specification support
+II. Difference from Flexbox
+	A. Two-dimensional layout vs. One-dimensional flow
+	B. Flexbox good for "flowing" items i.e. a series of identical containers
+	C. Items in HTML don't have to be in presentation order
+	D. CSS Grid is a structured grid - NOT a "scaffolding" like Masonry
+	E. CSS Grid actually inherits some functionality from Flexbox i.e. justify-content (to justify the contents of the grid container)
+III. Resources
+	A. CSS-Tricks
+	B. MDN
+	C. Lynda.com
+	D. YouTube
+IV. Basics
+	A. Parent element, direct children
+	B. Define rows, columns
+		1. Units, inc. "fr"
+			a. "fr" = all available space
+			b. "auto" = just enough to hold my content
+		2. Define area names
+		3. Child elements naturally fill in grid areas in the order they appear in HTML
+		4. Place child elements into the grid
+			a. define start and end line numbers
+			b. define start and end line names
+			c. define grid area name
+
+
