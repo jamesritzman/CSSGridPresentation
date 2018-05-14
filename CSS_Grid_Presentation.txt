@@ -11,10 +11,12 @@ II. Difference from Flexbox
 	D. CSS Grid is a structured grid - NOT a "scaffolding" like Masonry
 	E. CSS Grid actually inherits some functionality from Flexbox i.e. justify-content (to justify the contents of the grid container)
 III. Resources
-	A. CSS-Tricks
-	B. MDN
+	A. CSS-Tricks - https://css-tricks.com/snippets/css/complete-guide-grid/
+	B. MDN - https://developer.mozilla.org/en-US/docs/Web/CSS/grid
 	C. Lynda.com
-	D. YouTube
+	D. YouTube - https://www.youtube.com/watch?v=rouxoqF8QnA&feature=youtu.be
+	E. https://gridbyexample.com/examples/
+	F. https://medium.com/@elad/becoming-a-css-grid-ninja-f4c6db018cc1
 IV. Basics
 	A. Parent element, direct children
 	B. Define rows, columns
