@@ -1,9 +1,10 @@
 CSS Grid Presentation
 
 I. Browser Compatibility
-	A. Chrome, FF, Safari, IE11: OK
-	B. IE 10-: Not OK
-	C. @supports (grid-area: auto): CSS rule for specification support
+	A. Chrome, FF, Safari: OK
+	B. IE11, IE10: OK with old spec (limited set of rules) using -ms- prefix
+	B. IE 9-: Not supported
+	C. @supports (grid-area: auto): CSS rule for current specification support
 II. Difference from Flexbox
 	A. Two-dimensional layout vs. One-dimensional flow
 	B. Flexbox good for "flowing" items i.e. a series of identical containers
@@ -17,6 +18,7 @@ III. Resources
 	D. YouTube - https://www.youtube.com/watch?v=rouxoqF8QnA&feature=youtu.be
 	E. https://gridbyexample.com/examples/
 	F. https://medium.com/@elad/becoming-a-css-grid-ninja-f4c6db018cc1
+	G. IE support limitation notes: https://stackoverflow.com/questions/45786788/css-grid-layout-not-working-in-edge-and-ie-11-even-with-ms-prefix
 IV. Basics
 	A. Parent element, direct children
 	B. Define rows, columns
