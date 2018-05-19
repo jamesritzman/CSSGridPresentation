@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <title>
+        fr vs auto
+    </title>
+    <style>
+        html,
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-rows: 60px 1fr 60px;
+            background-color: #fff;
+        }
+
+        .dark {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body class="grid-container">
+    <header class="dark"></header>
+    <main>Hello world!</main>
+    <footer class="dark"></footer>
+</body>
+</html>
