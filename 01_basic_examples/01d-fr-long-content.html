@@ -2,35 +2,29 @@
 <html>
 <head>
     <title>
-        fr vs auto
+        4 - basic rows, fr, long content
     </title>
+    <link rel="stylesheet" href="basic.css" />
+    <script>
+        const previousPageUrl = "01c-auto-long-content.html";
+        const nextPageUrl = "01e-auto-variable-content.html";
+    </script>
+    <script src="script.js"></script>
     <style>
-        html,
-        body {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            border: none;
-        }
-
-        body {
-            min-height: 100vh;
-        }
-
         .grid-container {
-            display: grid;
             grid-template-rows: 60px 1fr 60px;
-            background-color: #fff;
-        }
-
-        .dark {
-            background-color: #333;
         }
     </style>
 </head>
 <body class="grid-container">
-    <header class="dark"></header>
+    <header class="dark">Header</header>
     <main>
+        body {<br>
+            <span class="indented">min-height: 100vh;</span><br>
+            <span class="indented">display: grid;</span><br>
+            <span class="indented">grid-template-rows: 60px <b>fr</b> 60px;</span><br>
+            <span class="indented">background-color: #fff;</span><br>
+        }
         <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
@@ -74,6 +68,6 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
     </main>
-    <footer class="dark"></footer>
+    <footer class="dark">Footer</footer>
 </body>
 </html>
