@@ -2,35 +2,30 @@
 <html>
 <head>
     <title>
-        fr vs auto
+        2 - basic rows with fr
     </title>
+    <link rel="stylesheet" href="basic.css" />
+    <script>
+        const previousPageUrl = "01a-auto.html";
+        const nextPageUrl = "01c-auto-long-content.html";
+    </script>
+    <script src="script.js"></script>
     <style>
-        html,
-        body {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            border: none;
-        }
-
-        body {
-            min-height: 100vh;
-        }
-        
         .grid-container {
-            display: grid;
             grid-template-rows: 60px 1fr 60px;
-            background-color: #fff;
-        }
-
-        .dark {
-            background-color: #333;
         }
     </style>
 </head>
 <body class="grid-container">
-    <header class="dark"></header>
-    <main>Hello world!</main>
-    <footer class="dark"></footer>
+    <header class="dark">Header</header>
+    <main>
+        body {<br>
+            <span class="indented">min-height: 100vh;</span><br>
+            <span class="indented">display: grid;</span><br>
+            <span class="indented">grid-template-rows: 60px <b>1fr</b> 60px;</span><br>
+            <span class="indented">background-color: #fff;</span><br>
+        }
+    </main>
+    <footer class="dark">Footer</footer>
 </body>
 </html>
