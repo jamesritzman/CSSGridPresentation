@@ -2,27 +2,15 @@
 <html>
 <head>
     <title>
-        fr vs auto
+        8 - fr columns, oversized content, overflow auto
     </title>
+    <link rel="stylesheet" href="basic.css" />
+    <script>
+        const previousPageUrl = "01g-fr-variable-content-nonbreaking.html";
+        const nextPageUrl = "01i-fr-variable-content-nonbreaking-x2.html";
+    </script>
+    <script src="script.js"></script>
     <style>
-        html,
-        body {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            border: none;
-        }
-
-        body {
-            min-height: 100vh;
-        }
-
-        .grid-container {
-            display: grid;
-            grid-template-rows: 60px auto 60px;
-            background-color: #fff;
-        }
-
         .grid-container-nested {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -39,21 +27,18 @@
             height: 20vh;
             border: 1px solid #f00;
             display: block;
-        }
-
-        .dark {
-            background-color: #333;
+            background-color: #ddd;
         }
     </style>
 </head>
 <body class="grid-container">
-    <header class="dark"></header>
+    <header class="dark">Header</header>
     <main class="grid-container-nested">
         <div>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </div>
         <div>
-            Auto !== Auto<br>
+            auto !== auto<br>
             fr === fr (mostly)<br>
             <img src="" class="image-wide" alt="wide image" />
         </div>
@@ -61,6 +46,6 @@
             Lorem Ipsum is simply dummy text.
         </div>
     </main>
-    <footer class="dark"></footer>
+    <footer class="dark">Footer</footer>
 </body>
 </html>
