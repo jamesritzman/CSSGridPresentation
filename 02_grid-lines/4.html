@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title>
+        Grid lines - by name
+    </title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            min-height: 100vh;
+            grid-template-columns: [left-edge] 1fr [content-area-start] 1fr [content-area-end] 1fr [right-edge];
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        .content {
+            background-color: #ddf;
+            grid-column: content-area-start/content-area-end;
+            grid-row: 2/3;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body class="container">
+    <div class="content">
+        <pre>
+  grid-column:
+    content-area-start/content-area-end;
+  grid-row: 2/3;
+        </pre>
+    </div>
+</body>
+</html>
