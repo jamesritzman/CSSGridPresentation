@@ -19,6 +19,7 @@ III. Resources
 	E. https://gridbyexample.com/examples/
 	F. https://medium.com/@elad/becoming-a-css-grid-ninja-f4c6db018cc1
 	G. IE support limitation notes: https://stackoverflow.com/questions/45786788/css-grid-layout-not-working-in-edge-and-ie-11-even-with-ms-prefix
+	H. Ultimate Collection of CSS Grid Resources: https://medium.com/@iamryanyu/an-ultimate-collection-of-css-grid-a105e88e7153
 IV. Basics
 	A. Parent element, direct children
 	B. Define rows, columns
